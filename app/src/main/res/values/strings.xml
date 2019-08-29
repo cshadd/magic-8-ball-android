@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Magic 8-Ball</string>
+    <string name="ball_button">Shake</string>
+    <string name="ball_clear_button">Clear</string>
+</resources>
