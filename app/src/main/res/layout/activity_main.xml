@@ -7,16 +7,6 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/ball_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/app_name"
-        app:layout_constraintBottom_toTopOf="@+id/ball_shake_button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ball" />
-
-    <ImageView
         android:id="@+id/ball_triangle_image_view"
         android:layout_width="201dp"
         android:layout_height="466dp"
@@ -44,11 +34,21 @@
         app:layout_constraintTop_toTopOf="@+id/ball_triangle_image_view"
         app:layout_constraintVertical_bias="0.624" />
 
-    <Button
-        android:id="@+id/ball_shake_button"
+    <ImageView
+        android:id="@+id/ball_image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ball_button"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@+id/ball_ask_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ball" />
+
+    <Button
+        android:id="@+id/ball_ask_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ball_ask_button"
         app:layout_constraintBottom_toTopOf="@+id/ball_clear_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
