@@ -1,4 +1,4 @@
-package com.example.magic8_ball;
+package io.github.cshadd.magic8_ball;
 
 import org.junit.Test;
 
